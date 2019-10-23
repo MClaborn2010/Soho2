@@ -81,4 +81,8 @@ p {
   .pimg1 {
     background-position-x: -570px;
   }
+  p {
+    width: 100%;
+    font-size: 1rem;
+  }
 }
