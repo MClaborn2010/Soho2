@@ -97,6 +97,7 @@ p {
 .menu-nav {
   display: flex;
   flex-direction: row;
+
   list-style: none;
 }
 
@@ -112,13 +113,16 @@ a {
 .social {
   margin: 30px;
 }
-ul {
+.list {
   width: 60%;
   margin: auto;
   list-style: none;
+  display: flex;
+  flex-direction: column;
 }
-li {
-  padding: 5px;
+.item {
+  padding: 15px 0;
+  font-size: 1.2rem;
 }
 @media (max-width: 768px) {
   .pimg1 {
@@ -127,5 +131,8 @@ li {
   p {
     width: 100%;
     font-size: 1rem;
+  }
+  .item {
+    font-size: 0.8rem;
   }
 }
