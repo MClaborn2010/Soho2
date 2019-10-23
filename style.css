@@ -97,7 +97,7 @@ p {
 .menu-nav {
   display: flex;
   flex-direction: row;
-
+  justify-content: space-around;
   list-style: none;
 }
 
@@ -109,6 +109,10 @@ a {
   text-decoration: none;
   color: white;
   font-weight: 200;
+}
+a:hover {
+  opacity: 0.4;
+  transition: 300ms;
 }
 .social {
   margin: 30px;
