@@ -135,4 +135,7 @@ a {
   .item {
     font-size: 0.8rem;
   }
+  .list {
+    width: 80%;
+  }
 }
