@@ -3,6 +3,9 @@ body,
 html {
   height: 100%;
   margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
   font-size: 16px;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
@@ -77,6 +80,31 @@ p {
   font-size: 1.1rem;
 }
 
+.menu {
+  background-color: #282e34;
+  margin: none;
+  padding: none;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+}
+
+.menu-nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  height: 100%;
+}
+
+.nav-item {
+  padding: 0 10px;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+}
 @media (max-width: 768px) {
   .pimg1 {
     background-position-x: -570px;
