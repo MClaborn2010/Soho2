@@ -43,6 +43,11 @@ html {
   background-image: url("img/image3.jpeg");
   min-height: 400px;
 }
+.pimg4 {
+  background-image: url("img/burger.jpeg");
+  background-position: top;
+  min-height: 100%;
+}
 
 .section {
   text-align: center;
@@ -93,7 +98,6 @@ p {
   display: flex;
   flex-direction: row;
   list-style: none;
-  height: 100%;
 }
 
 .nav-item {
@@ -104,6 +108,17 @@ a {
   text-decoration: none;
   color: white;
   font-weight: 200;
+}
+.social {
+  margin: 30px;
+}
+ul {
+  width: 60%;
+  margin: auto;
+  list-style: none;
+}
+li {
+  padding: 5px;
 }
 @media (max-width: 768px) {
   .pimg1 {
